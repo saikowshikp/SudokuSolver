@@ -14,15 +14,15 @@ Create an object of class sudoku
 
 **Functions in sudoku.h**
 
-1. _generate_sudoku()_ (return type: vector<vector<int>>)
+1. _generate_sudoku()_ (return type: vector<vector\<int>>)
    
    returns a valid sudoku with few empty cells having a unique solution.
    
-2. _solve()_ (return type: vector<vector<vector<int>>>)
+2. _solve()_ (return type: vector<vector<vector\<int>>>)
    
    returns vector containing possible solutions of the sudoku passed on to _Grid_ of that object
    
-3. _print(vector<vector<int>>)_ (return type: void)
+3. _print(vector<vector\<int>>)_ (return type: void)
    
    prints the 9 x 9 matrix passed as argument in the form of a sudoku (i.e. space after every 3 elements in a row, new line after every 3 columns)
 # Examples
